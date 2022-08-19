@@ -1,0 +1,259 @@
+
+.container {
+    margin-top: 10px    ;
+}
+.container .row .col-3 img{
+    width :300px
+}
+.container .row .col-4 .form-control{
+    border-radius:30px;
+    
+    
+}
+.doi-ngu-huan-luyen{
+
+    text-align: center;
+    color: red;
+}
+
+
+
+
+
+.big-pictrue img {
+    width:100%;
+    position: relative;
+}
+.big-pictrue .chirdren-picture1{
+    position: absolute;
+    bottom:20px;
+    left:200px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    width:330px; 
+    height:200px;
+    padding:20px;
+}
+
+
+.big-pictrue .chirdren-picture2{
+    position: absolute;
+    bottom:20px;
+    left:550px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    width:330px; 
+    height:200px;
+    padding:20px;
+}
+.big-pictrue .chirdren-picture3{
+    position: absolute;
+    bottom:20px;
+    right :200px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: rgb(199, 63, 63);
+    color: white;
+    width:330px; 
+    height:200px;
+    padding:20px;
+}
+.big-pictrue .chirdren-picture1 .but-1{
+    border-radius: 20px;
+    
+}
+.big-pictrue .chirdren-picture2 .but-1{
+    border-radius: 20px;
+    
+}
+.big-pictrue .chirdren-picture3 .but-1{
+    border-radius: 20px;
+    
+}
+
+.big-pictrue .chirdren-picture1:hover {
+    background-color: rgb(177, 82, 82);
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    transition: 2s;
+
+        }
+
+
+        .big-pictrue .chirdren-picture2:hover {
+            background-color: rgb(177, 82, 82);
+            color: white;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            transition: 2s;
+        
+                }
+
+                .big-pictrue .chirdren-picture3:hover {
+                    background-color: rgb(177, 82, 82);
+                    color: white;
+                    margin-bottom: 20px;
+                    margin-left: 10px;
+                    transition: 2s;
+                
+                        }
+
+/* hover */
+.big-pictrue .chirdren-picture1 .but-1:hover{
+    background-color: rgb(187, 102, 11);
+    color: white;
+        }
+ .big-pictrue .chirdren-picture2 .but-1:hover{
+    background-color: rgb(187, 102, 11);
+    color: white;
+    }
+.big-pictrue .chirdren-picture3 .but-1:hover{
+ background-color: rgb(187, 102, 11);
+color: white;
+ }
+
+
+
+
+ /* khung anh a nh lam */
+.CEO-picture{
+    background-color: white;
+    height: 600px;
+    margin:50px ;
+    width: 350px;
+    border-top-left-radius : 200px;
+    border-top-right-radius : 200px;
+    border: 1px solid rgb(187, 183, 183);
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   /* text-align: center;    */
+   position: relative;
+}
+
+.CEO-picture .khung-anh{
+    height: 63%;
+    width:90%;
+    border: 1px solid black;
+    border-top-left-radius : 200px;
+    border-top-right-radius : 200px;
+    background-color: rgb(151, 15, 15);
+    position: absolute;
+   margin-left: 18px;
+   margin-top: 20px;
+    
+
+}
+
+.CEO-picture img {
+    height:420px;
+    width:120%;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 182px;
+    margin-left: -25px;
+}
+.CEO-picture #Anh-Huy {
+    height:410px;
+    width:90%;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 182px;
+    margin-left: 17px;
+}
+.CEO-picture #anh-the-dung {
+    height:400px;
+    width:110%;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 182px;
+    margin-left: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CEO-picture .chuviet {
+    font-size: 16px;
+    position: absolute;
+    top:450px;
+  margin-left: 30px;
+
+}
+
+
+
+.all-CEO{
+    display: flex;
+}
+
+
+ .CEO-picture:hover{
+    transition: 2s;
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+        } 
+ .doi-ngu-huan-luyen p{
+    color: black;
+ }
+   
+
+
+
+        /* nut tu van mien phi */
+
+.tuvan{
+    text-align: center;
+    width:100%;
+    height:140px;
+    /* border: 3px bolid black; */
+    /* margin-left: 250px; */
+    background-color: rgb(50, 39, 39);
+
+}
+.tuvan .Tu-van-mien-phi{
+     padding-top: 30px;
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+    
+    text-align: center;
+    width:1000px;
+    /* border: 3px bolid black; */
+    margin-left: 250px;
+    color: azure;
+
+}
+.tuvan .Tu-van-mien-phi1{
+   /* text-align: center; */
+   color:rgb(245, 245, 249);
+   border-radius: 20px;
+   background-color: rgb(174, 34, 34);
+}
+.tuvan :hover button {
+    background-color: rgb(69, 165, 42);
+    transition: 2s;
+}
+
+
+
+
+
+#carouselExampleIndicators{
+ margin-left: 500px;
+}
+
